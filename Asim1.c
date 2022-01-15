@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
-main(void)
+main()
 {
 	int a, b, c;
 	a = 10;
@@ -9,4 +8,5 @@ main(void)
 	printf("A = % d", a);
 	printf(" B = % d", b);
 	printf(" C = % d ", c);
+	return 0;
 }
